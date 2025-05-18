@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import Text from "./typography/Text";
 import { useState, useEffect } from "react";
 
 export default function Header() {
@@ -92,7 +91,7 @@ export default function Header() {
           {/* Social Links - Desktop */}
           <div className="hidden md:flex items-center space-x-4">
             <Link 
-              href="https://twitter.com/fanspump" 
+              href="https://x.com/Fans_pump_" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-gray-600 hover:text-blue-600 transition-colors"
@@ -100,7 +99,7 @@ export default function Header() {
               <Image src="/twitter.svg" alt="Twitter" width={20} height={20} />
             </Link>
             <Link 
-              href="https://t.me/fanspump" 
+              href="https://t.me/Fans_pump_Official" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-gray-600 hover:text-blue-600 transition-colors"
@@ -164,7 +163,7 @@ export default function Header() {
             <p className="px-4 py-1 text-sm text-gray-500 font-medium">Connect with us</p>
             <div className="flex px-4 py-2 space-x-4">
               <Link 
-                href="https://twitter.com/fanspump" 
+                href="https://x.com/Fans_pump_" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-gray-600 hover:text-blue-600"
@@ -172,7 +171,7 @@ export default function Header() {
                 <Image src="/twitter.svg" alt="Twitter" width={20} height={20} />
               </Link>
               <Link 
-                href="https://t.me/fanspump" 
+                href="https://t.me/Fans_pump_Official" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-gray-600 hover:text-blue-600"

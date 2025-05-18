@@ -11,11 +11,11 @@ type CarouselItem = {
 };
 
 type CarouselProps = {
-  heading: string;
   items: CarouselItem[];
+  heading?: string;
 };
 
-export default function Carousel({ heading, items }: CarouselProps) {
+export default function Carousel({ items }: CarouselProps) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [slidesToShow, setSlidesToShow] = useState(3);
