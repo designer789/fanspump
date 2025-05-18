@@ -1,0 +1,48 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <path d="M450 300C450 382.843 382.843 450 300 450C217.157 450 150 382.843 150 300C150 217.157 217.157 150 300 150C382.843 150 450 217.157 450 300Z" fill="#E0E7FF" fill-opacity="0.3"/>
+  <path d="M550 250C550 250 500 200 400 250C300 300 250 200 150 250C50 300 50 350 50 350" stroke="#93C5FD" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Character -->
+  <g transform="translate(300, 300)">
+    <!-- Body -->
+    <path d="M0 0C-20 40 -50 120 -40 160C-30 200 10 220 30 220C50 220 90 200 100 160C110 120 80 40 60 0" fill="#93C5FD"/>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="40" height="45" fill="#F9FAFB"/>
+    <path d="M-15 -60C-15 -60 -10 -55 0 -55C10 -55 15 -60 15 -60" stroke="#1E293B" stroke-width="2"/>
+    
+    <!-- Hair -->
+    <path d="M-30 -80C-30 -80 -20 -100 0 -100C20 -100 30 -80 30 -80C30 -80 25 -70 0 -70C-25 -70 -30 -80 -30 -80Z" fill="#1E293B"/>
+    
+    <!-- Arms -->
+    <path d="M-30 0C-30 0 -80 20 -100 60C-120 100 -100 130 -90 140" fill="none" stroke="#93C5FD" stroke-width="25" stroke-linecap="round"/>
+    <path d="M30 0C30 0 80 20 100 60C120 100 100 130 90 140" fill="none" stroke="#93C5FD" stroke-width="25" stroke-linecap="round"/>
+    
+    <!-- Legs -->
+    <path d="M-20 200C-20 200 -30 240 -40 280C-50 320 -40 350 -30 350" fill="none" stroke="#1E293B" stroke-width="25" stroke-linecap="round"/>
+    <path d="M20 200C20 200 30 240 40 280C50 320 40 350 30 350" fill="none" stroke="#1E293B" stroke-width="25" stroke-linecap="round"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="-30" cy="350" rx="20" ry="10" fill="#2563EB"/>
+    <ellipse cx="30" cy="350" rx="20" ry="10" fill="#2563EB"/>
+  </g>
+  
+  <!-- Crypto tokens and connection lines -->
+  <circle cx="150" cy="150" r="30" fill="#FBBF24"/>
+  <circle cx="150" cy="150" r="20" fill="#F59E0B"/>
+  <text x="150" y="155" font-family="Arial" font-size="20" fill="white" text-anchor="middle">$</text>
+  
+  <circle cx="450" cy="200" r="30" fill="#2563EB"/>
+  <circle cx="450" cy="200" r="20" fill="#1D4ED8"/>
+  <text x="450" y="205" font-family="Arial" font-size="20" fill="white" text-anchor="middle">$</text>
+  
+  <circle cx="400" cy="450" r="30" fill="#10B981"/>
+  <circle cx="400" cy="450" r="20" fill="#059669"/>
+  <text x="400" y="455" font-family="Arial" font-size="20" fill="white" text-anchor="middle">$</text>
+  
+  <!-- Connection lines -->
+  <path d="M180 150C180 150 250 100 280 100" stroke="#93C5FD" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M420 200C420 200 350 150 320 150" stroke="#93C5FD" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M370 450C370 450 300 400 270 400" stroke="#93C5FD" stroke-width="2" stroke-dasharray="4 4"/>
+</svg> 
